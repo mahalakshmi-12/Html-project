@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@media only screen and (min-width:800px){
+    
+    html #form {
+        margin:0 250px;
+        background-color: rgb(218, 161, 170);
+    }
+    html .button{
+        display: inline-block;
+        margin:10px 100px;
+    }
+
+
+
+html{
+    font-size: 18px;
+    font-family: Arial, Helvetica, serif;
+}
+body{
+    
+    display: block;
+    background-color:whitesmoke;
+        
+    }
+    
+    input:focus,textarea:focus,select:focus{
+        background-color:lightgrey;
+    }
+}
+    #head{
+        font-size:xx-large;
+        padding: 1rem;
+        text-align: center;
+        margin-bottom: 15px;
+        color: whitesmoke;
+        font-weight: bold;
+    }
+    input:focus,textarea:focus,select:focus{
+        background-color:lightgrey;
+    }
+    
+#form {
+    background-color: rgb(187, 139, 163);
+    display: center;
+    margin:0 20px;
+    border-radius: 12px;
+    font-size: 1rem;
+    padding:40px;  
+}
+.container label {
+    width: 150px;
+    padding: 12px;
+    display: inline-block;
+}
+
+input[type=gender],input[type=text], input[type=password],textarea,select{
+    padding-left: 3px;
+    padding:5px;
+    max-width: 250px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin-left:20px;
+    }
+input[type=date], input[type=email]{ 
+    position: relative;
+    padding:5px;
+    max-width: 260px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+.button a{
+    display: block;
+    padding: 5px;
+    background-color: rgb(207, 63, 195);
+    width: 120px;
+    border: 1px solid rgb(184, 44, 184);
+    border-radius: 10px;
+    margin-top: 1rem;
+    margin-left: 50px;
+    text-decoration: none;
+    text-align: center;
+    color:white ;
+}
+.button a:hover{
+    text-decoration: none;
+    background-color: violet;
+}
